@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "cindy1";
+  src: url("cinderella.ttf");
+}
+
+@font-face {
+  font-family: "cindy2";
+  src: url("cinderella2.otf");
+}
+
+body {
+	background-color: #FCE4EC;
+	color: #333;
+	font-family: cindy2, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+
+h1 {
+	font-family: "cindy2";
+	font-size: 85px;
+	text-align: center;
+	margin-bottom: 30px;
+	max-width: auto;
+}
+
+.text{
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 50px;
+}
+
+.riddle {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px #ccc;
+	margin-bottom: 30px;
+	max-width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+input[type="text"] {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 25px;
+	font-family: "cindy2";
+
+}
+
+button {
+	font-family: cindy2;
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin:0;
+	text-align: center;
+	align-items: center;
+	font-size: 30px;
+}
+
+button:hover {
+	background-color: #555;
+}
+
+.result {
+	text-align: center;
+}

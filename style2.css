@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Define and load Tangled.ttf font */
+@font-face {
+  font-family: "cindy2";
+  src: url("cinderella2.otf");
+}
+
+html {
+  /* Use Tangled font for body */
+  font-family: "cindy2", Arial;
+   /* Increase letter spacing for all text */
+   letter-spacing :2px; 
+}
+
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+h1 {
+   color:#0f258a; 
+   text-align :center; 
+   margin-top :360px;
+   margin-bottom :40px; 
+   font-size: 80px;
+   letter-spacing :4px;
+   text-shadow:  4px 4px #efefef;
+}
+
+p {
+   color:#efefef; 
+   text-align :center;
+   letter-spacing :4px; 
+   font-size: 50px;
+   font-weight: bold;
+   text-shadow:  4px 4px #0f258a;
+}
